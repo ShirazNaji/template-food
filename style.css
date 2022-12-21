@@ -1,0 +1,425 @@
+ *{ 
+	padding:0;
+ 	margin:0;
+	box-sizing:border-box;
+}
+.parents{
+	border:1px solid transparent;
+	width:100%;
+	
+	  /*  margin:auto;
+	      width:900px;*/
+			  
+}
+
+							  
+.ul{
+	margin-top:0px;
+	position:absolute;
+	list-style-type:none;
+	width:100%;
+	height:50px;
+    font-size:18px;
+	
+}
+				  
+.li{
+		            
+	padding-top:13px;
+	margin-left:40px;
+	float:left;
+}
+				   
+				   
+.li a{
+	text-decoration:none;
+	color:pink;
+}
+
+.li:first-child{
+				 
+	color:black;
+	font-family:tahoma;
+	font-size:22px;
+	
+	margin-right:400px;
+	font-weight:bolder;
+	padding-top:10px;
+}
+.firstlatter{
+				
+	color:pink;
+	font-size:25px;
+				
+}	 
+					 
+			
+		 
+		   
+.back{
+				
+	background-image:url("img/burger.jpg");
+	background-size: 100% 500px;
+	background-repeat:no-repeat;
+	background-position: 1%;
+	width:100%;
+    min-height:500px;
+	margin-top:50px;
+
+	display: flex;
+	justify-content: center;
+}
+				
+.bacimg{
+	margin-top:40px;
+	width:400px;
+	height:30px;
+	padding-left:10px;
+	border:1px solid white;
+	font-weight:bold;
+	margin-top: 80px;
+}
+.bacbutton{
+	width:100px;
+	height:30px;
+    border:1px solid pink;
+	background-color:pink;
+	font-weight:bold;
+	font-size:15px;
+    cursor: pointer;
+}
+.h2,.h3{
+				
+	text-align:center;
+	margin-top:15px;
+	font-weight:bold;
+	margin-bottom: 50px;
+				
+}
+
+
+
+.foods{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.foods div{
+	
+	margin-left:20px;
+	margin-top:20px;
+
+}
+
+.foods div .name{
+	font-weight:bolder;
+	text-align: center;
+	font-size:20px;
+
+}
+
+.foods div img{
+	width:200px;
+	height:200px;
+	margin-top:5px;
+	margin-left:10px;
+	
+
+}
+				
+
+		
+.FoodMenue{
+	width:100%;
+	background-color:#D9DDDC;
+   margin-top: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}	
+
+
+
+
+.menu1{
+	border:1px solid white;
+	width: calc(99%/2);
+    float: left;
+	margin-left: 5px;
+	margin-bottom: 20px;
+    text-align: center;
+	position: relative;
+	background-color: #FFF;
+	padding: 20px;
+	font-size: 22px;     
+					
+	
+}
+
+
+				
+				
+.ImgMenu{
+	
+
+	width: 140px;
+	height: 156px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.foodtitle{
+	font-size:25px;
+    font-weight:bold;
+	margin: 14px 0  5px;
+	float: left;
+}
+.p{
+	line-height: 1.5;
+	font-size: 18px;
+    color: #707070;
+	width:450px;
+	float: left;
+	text-align: left;
+	
+				}
+.Price{
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	
+					
+}
+
+.OrderNow{
+				
+	
+	width:120px;
+	cursor: pointer;
+	padding: 10px 10px;
+	margin-top:7px;
+	border:1px solid pink;
+	background-color:pink;
+	color:black;
+	font-weight: bold;
+}
+
+.more{
+	text-align:center;
+	font-weight:bold;
+}
+
+.clearfix{
+	clear: both;
+}
+				
+				
+.footer{
+				
+	width:100%;
+	height:180px;
+	padding-top:40px;
+	text-align:center;
+}
+				
+.imgsocial{
+				
+	width:50px;
+    height:50px;
+				
+}
+
+.Designed{
+	font-size:18px;
+	margin-top:20px;
+	font-weight:bolder;
+				
+}
+.namedesign{
+	font-weight:bolder;
+	font-size:20px;
+	color:pink;
+				  
+}
+
+@media(min-width:300px) and (max-width:480px) {
+	
+	
+
+	li:not(:first-child){
+		display: none;
+	}
+	.li {
+		margin-left: 11px;
+	}
+
+	.bacimg {
+		 width: 70%;
+	}
+
+	.foods div img {
+		width: 100% ;
+		margin-left: -2px;
+	}
+
+	.foods div .name {
+		
+		margin-left: -5px;
+	}
+
+	.p {
+			
+		width: 100%;
+		text-align: center;
+		margin-top: 16px;
+		
+	}
+
+	.foods div {
+		margin-left: 11px;
+		margin-top: 20px;
+	}
+
+
+	.menu1 {
+		
+		 width: 100%; 
+		 margin-left: 0px; 
+		
+	}
+
+	.ImgMenu {
+ 
+		 margin-right: 0px; 
+		display: block;
+		margin: 20px auto;
+}
+	.foodtitle , .ImgMenu{
+		
+		float: none; 
+	}
+
+	.OrderNow {
+		
+		margin: 14px auto;
+		display: block;
+	}
+
+	.Price {
+		
+		display: block;
+		margin-top: 20px;
+	}
+}
+
+@media(min-width:481px) and (max-width:768px) {
+
+	
+	.ul {
+		margin-top: 3px;
+	}
+
+	.li:first-child {
+		
+		margin-right: 60px;
+		padding-top: 6px;
+	}
+
+	.foods div img {
+		width: 100% ;
+		margin-left: -2px;
+	}
+
+	.menu1 {
+		
+		width: 100%; 
+		margin-left: 0px; 
+	   
+   }
+
+   .ImgMenu {
+
+		margin-right: 0px; 
+	   display: block;
+	   margin: 20px auto;
+}
+	.p {
+			
+		width: 100%;
+		text-align: center;
+		margin-top: 16px;
+		
+	}
+
+   .foodtitle , .ImgMenu{
+	   
+	   float: none; 
+   }
+
+   .OrderNow {
+		
+	margin: 14px auto;
+	display: block;
+}
+
+.Price {
+	
+	display: block;
+	margin-top: 20px;
+}
+
+}
+
+@media(min-width:769px) and (max-width:1023px){
+	
+
+	.li:first-child {
+		
+		margin-right: 30%;
+	}
+
+	.menu1 {
+		
+		width: 100%; 
+		margin-left: 0px; 
+	   
+   }
+
+   .ImgMenu {
+
+		margin-right: 0px; 
+	   display: block;
+	   margin: 20px auto;
+}
+	.p {
+			
+		width: 100%;
+		text-align: center;
+		margin-top: 16px;
+		
+	}
+
+   .foodtitle , .ImgMenu{
+	   
+	   float: none; 
+   }
+
+   .OrderNow {
+		
+	margin: 14px auto;
+	display: block;
+}
+
+	.Price {
+		
+		display: block;
+		margin-top: 20px;
+	}
+}	
+		  
+			  
+		  
+		
+		
