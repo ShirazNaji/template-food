@@ -256,7 +256,13 @@
 	}
 
 	.bacimg {
-		 width: 70%;
+		 width: 67%;
+		 margin-left: 2px;
+	}
+	.bacbutton {
+		width: 90px;
+		
+		
 	}
 
 	.foods div img {
